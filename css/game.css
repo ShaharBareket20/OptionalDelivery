@@ -1,0 +1,237 @@
+body {
+    background-color: rgb(165, 182, 192);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+h4 {
+    color: whitesmoke;
+    margin: 0;
+}
+
+.pannel {
+    box-sizing: border-box;
+    width: 240px;
+    height: 50px;
+    margin: auto;
+}
+
+.time {
+    position: static;
+    font-size: 20px;
+    float: right;
+    width: 70px;
+}
+
+.timer {
+    color: whitesmoke;
+    text-align: center;
+}
+
+.x {
+    color: whitesmoke;
+}
+
+.emoji {
+    margin-left: 25px;
+    background-color: rgb(190, 186, 186);
+    text-align: center;
+    font-size: xx-large;
+}
+
+.mines {
+    position: static;
+    float: left;
+    font-size: 20px;
+    width: 70px;
+}
+
+.mines-left {
+    color: whitesmoke;
+}
+
+.level-pannel {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 7px;
+}
+
+.level-pannel button {
+    background-color: rgb(190, 186, 186);
+    font-weight: bold;
+}
+
+.undo {
+    top: 300px;
+    left: 430px;
+    position: absolute;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    color: maroon;
+    width: 80px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.manual {
+    top: 360px;
+    left: 410px;
+    position: absolute;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    color: maroon;
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+table {
+    table-layout: fixed;
+    text-align: center;
+    margin: auto;
+    border: 2px solid grey;
+    background-color: rgb(190, 186, 186);
+    border-spacing: 0px;
+    box-shadow: 3px 40px 68px 7px rgba(245, 155, 19, 1);
+}
+
+.cell {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    background-color: silver;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+    border-top: solid 3px white;
+    border-right: solid 3px rgb(123, 123, 123);
+    border-bottom: solid 3px rgb(123, 123, 123);
+    border-left: solid 3px white;
+}
+
+td:hover {
+    background-color: lightsalmon;
+    cursor: pointer;
+}
+
+.revealed {
+    background-color: rgba(177, 151, 151, 0.5);
+    border: 2px grey solid;
+}
+
+.mine {
+    background-color: red;
+    border: 2px grey solid;
+}
+
+.extras {
+    text-align: center;
+    margin: auto;
+    width: 500px;
+    height: 30px;
+}
+
+.lifes {
+    visibility: visible;
+    display: inline;
+    margin: auto;
+    text-align: center;
+    font-size: 30px;
+}
+
+.hints {
+    visibility: visible;
+    display: inline;
+    margin: auto;
+    text-align: center;
+    font-size: 30px;
+}
+
+.hint:hover {
+    cursor: pointer;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #F9FF22, 0 0 30px #F9FF22, 0 0 40px #F9FF22, 0 0 55px #F9FF22, 0 0 75px #F9FF22;
+}
+
+.show-hint {
+    background-color: rgb(247, 230, 76);
+}
+
+.safe-clicks {
+    visibility: visible;
+    display: inline;
+    margin: auto;
+    text-align: center;
+    font-size: 30px;
+}
+
+.safe:hover {
+    cursor: pointer;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px rgba(230, 187, 101, 1), 0 0 30px rgba(230, 187, 101, 1), 0 0 40px rgba(230, 187, 101, 1), 0 0 55px rgba(230, 187, 101, 1), 0 0 75px rgba(230, 187, 101, 1);
+}
+
+.safe-click-clicked {
+    background-color: rgb(19, 187, 19);
+    border: 2px grey solid;
+}
+
+.dead {
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+    line-height: 30px;
+    margin: auto;
+    color: red;
+}
+
+.victory {
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+    line-height: 30px;
+    margin: 5px;
+    color: yellow;
+}
+
+.records {
+    height: 20px;
+    width: 100px;
+    background-color: whitesmoke;
+    color: rgb(139, 6, 6);
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 2px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    border-radius: 2px;
+}
+
+.one {
+    color: blue;
+}
+
+.two {
+    color: red;
+}
+
+.three {
+    color: green;
+}
+
+.four {
+    color: yellow;
+}
+
+.five {
+    color: fuchsia;
+}

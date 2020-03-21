@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>💣Mine Sweeper💣</title>
+    <link rel="stylesheet" href="css/game.css">
+</head>
+
+<body oncontextmenu="return false" onload="init(1)" background="img/background.jpg">
+    <h1>💥MINE SWEEPER💥</h1>
+    <div class="pannel">
+        <div class="time">⏰ <span class="x">X </span><span class="timer">0</span></div>
+        <button class="emoji" onclick="init(1)">😃</button>
+        <div class="mines">💣 <span class="x">X </span><span class="mines-left"></span></div>
+
+    </div>
+
+    <div class="level-pannel">
+        <h4>Choose Your Level:</h4>
+        <button class="btn" onclick="init(0)">EASY</button>
+        <button class="btn" onclick="init(1)">HARD</button>
+        <button class="btn" onclick="init(2)">EXPERT</button>
+    </div>
+    <button class="undo" onclick="undoMoves()">UNDO</button>
+    <button class="manual" onclick="setMinesMode(this)">Set Manual Mines</button>
+    <div class="extras">
+        <div class="hints"></div>
+        <div class="lifes"></div>
+        <div class="safe-clicks"></div>
+    </div>
+    <div class="records">Record: <span class="record"></span></div>
+    <div class="board-container"></div>
+
+    <h3 hidden class="dead">DEAD! &#9760</h3>
+    <h3 hidden class="victory">VICTORY!!! &#127942</h3>
+
+
+</body>
+<script src="js/utils.js"></script>
+<script src="js/game.js"></script>
+
+</html>
